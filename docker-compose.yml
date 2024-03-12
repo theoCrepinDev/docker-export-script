@@ -1,0 +1,16 @@
+version: "3.1"
+
+services:
+  app: 
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      PGHOST: host.docker.internal
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      PGDATABASE: ideahor
+      GITREPO: "git@github.com:theoCrepinDev/test_export.git"
+      GITBRANCH: "master"
+    volumes:
+      - ./logs:/var/log/export_data/moonwalk

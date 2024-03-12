@@ -1,0 +1,38 @@
+Warning: Identity file id_rsa not accessible: No such file or directory.
+Password: 
+fatal: destination path 'repo' already exists and is not an empty directory.
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+From github.com:theoCrepinDev/test_export
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+[master c86c29b] New SQL dump 1708268299
+ Committer: root <root@localhost>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+To github.com:theoCrepinDev/test_export.git
+   b178022..c86c29b  master -> master
+Ended

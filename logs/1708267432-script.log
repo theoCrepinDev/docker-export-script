@@ -1,0 +1,6 @@
+Warning: Identity file id_rsa not accessible: No such file or directory.
+remote username contains invalid characters
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
